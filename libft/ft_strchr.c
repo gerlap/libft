@@ -5,24 +5,26 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: glapshin <glapshin@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/29 16:12:48 by glapshin          #+#    #+#             */
-/*   Updated: 2024/09/29 16:18:17 by glapshin         ###   ########.fr       */
+/*   Created: 2024/10/07 14:58:52 by glapshin          #+#    #+#             */
+/*   Updated: 2024/10/11 19:33:49 by glapshin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strchr( const char *s, int c) {
-	while(*s) {
-		if (*s == (char)c) {
-			return (char *)s;
+char	*ft_strchr( const char *s, int c)
+{
+	while (*s)
+	{
+		if (*s == (char)c)
+		{
+			return ((char *)s);
 		}
-	s++;
+		s++;
 	}
 	if (c == '\0')
 	{
-		return (char *)s;
+		return ((char *)s);
 	}
-	return NULL;
+	return (NULL);
 }
-

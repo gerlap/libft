@@ -6,16 +6,16 @@
 /*   By: glapshin <glapshin@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 19:11:49 by glapshin          #+#    #+#             */
-/*   Updated: 2024/09/21 19:11:54 by glapshin         ###   ########.fr       */
+/*   Updated: 2024/10/11 19:06:25 by glapshin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_str_is_alpha(int c)
+int	ft_isalpha(int c)
 {
 	if (!((c >= 'a' && c <= 'z')
-		|| (c >= 'A' && c <= 'Z')))
+			|| (c >= 'A' && c <= 'Z')))
 	{
 		return (0);
 	}

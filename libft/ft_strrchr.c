@@ -6,7 +6,7 @@
 /*   By: glapshin <glapshin@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/03 19:37:39 by glapshin          #+#    #+#             */
-/*   Updated: 2024/10/03 19:37:56 by glapshin         ###   ########.fr       */
+/*   Updated: 2024/10/11 19:32:12 by glapshin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char
 	while (i >= 0)
 	{
 		if (s[i] == (char)c)
-			return ((char*)(s + i));
+			return ((char *)(s + i));
 		i--;
 	}
 	return (NULL);
